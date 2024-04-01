@@ -23,6 +23,6 @@
 
 ## 图片展示
 
-![image-20240401234549322](C:\Users\76542\AppData\Roaming\Typora\typora-user-images\image-20240401234549322.png)
+![image-20240401234549322](E:\lua_program\save-the-wooloo\pic\image-20240401234549322.png)
 
-![image-20240401234624893](C:\Users\76542\AppData\Roaming\Typora\typora-user-images\image-20240401234624893.png)
+![image-20240401234624893](E:\lua_program\save-the-wooloo\pic\image-20240401234624893.png)
