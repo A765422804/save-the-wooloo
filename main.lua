@@ -154,15 +154,15 @@ function love.mousepressed(x, y, button, istouch,presses)
         if button == 1 then
             if game.state["menu"] then
                 for index in pairs(buttons.menu_state) do
-                    buttons.menu_state[index]:checkPressed(x,y,player.radius)
+                    buttons.menu_state[index]:checkPressed(x,y,player.radius / 2)
                 end
             elseif game.state["ended"] or game.state["win"] then
                 for index in pairs(buttons.ended_state) do
-                    buttons.ended_state[index]:checkPressed(x,y,player.radius)
+                    buttons.ended_state[index]:checkPressed(x,y,player.radius / 2)
                 end
             elseif game.state["setting"] then
                 for index in pairs(buttons.settings_state) do
-                    buttons.settings_state[index]:checkPressed(x,y,player.radius)
+                    buttons.settings_state[index]:checkPressed(x,y,player.radius / 2)
                 end
             end
         end
@@ -252,9 +252,9 @@ function love.draw()
         love.graphics.setFont(fonts.large.font)
 
         -- 调整比例让按钮显示在中间
-        buttons.ended_state.replay_game:draw(love.graphics.getWidth()/2.6 ,love.graphics.getHeight() /1.8 ,15,10)
-        buttons.ended_state.to_menu:draw(love.graphics.getWidth()/2.6,love.graphics.getHeight() /1.53,15,10)
-        buttons.ended_state.exit_game:draw(love.graphics.getWidth()/2.6,love.graphics.getHeight() /1.33,15,10)
+        buttons.ended_state.replay_game:draw(love.graphics.getWidth()/2.6 ,love.graphics.getHeight() *0.6 ,15,10)
+        buttons.ended_state.to_menu:draw(love.graphics.getWidth()/2.6,love.graphics.getHeight() *0.72,15,10)
+        buttons.ended_state.exit_game:draw(love.graphics.getWidth()/2.6,love.graphics.getHeight() *0.84,15,10)
 
         -- 显示玩家得分
         love.graphics.printf(
