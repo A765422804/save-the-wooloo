@@ -28,6 +28,6 @@
 
 ## 图片展示
 
-![image-20240401234549322](E:\lua_program\save-the-wooloo\pic\image-20240401234549322.png)
+![image-20240401234549322](https://github.com/A765422804/save-the-wooloo/blob/master/pic/image-20240401234549322.png)
 
-![image-20240401234624893](E:\lua_program\save-the-wooloo\pic\image-20240401234624893.png)
+![image-20240401234624893](https://github.com/A765422804/save-the-wooloo/blob/master/pic/image-20240401234624893.png)
